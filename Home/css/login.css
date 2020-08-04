@@ -22,7 +22,7 @@ p {
 }
 
 .left {
-    background: linear-gradient(160deg, #ff2a2a 0%, #ff0000 100%);
+    background: linear-gradient(100deg, #ff2a2a 0%, #ff2a2a 100%);
     padding: 1em;
 }
 
@@ -77,11 +77,13 @@ a:link {
     background-color: transparent;
     text-decoration: none;
 }
-a:hover {
-    color: #000000;
+
+a:visited {
+    color: #ff0000;
     background-color: transparent;
     text-decoration: none;
 }
+
 a:active {
     color: #000000;
     background-color: transparent;
@@ -149,5 +151,12 @@ a:active {
 
     .button {
         width: 96% !important;
+    }
+
+    .homepage {
+        font-size: 15px;
+        margin-top: -25px;
+        margin-right: 15px;
+        text-align: right;
     }
 }
