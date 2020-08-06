@@ -1,0 +1,53 @@
+<!DOCTYPE html5>
+<html dir="ltr" lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="School Project">
+        <meta name="keywords" content="School Project school schoolwebsite.com website for school">
+        <meta name="author" content="Mohamed Aymene Bahous">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Etablissement LA FONTAINE</title>
+        <link rel="icon" href="img/logo.png">
+        <link rel="stylesheet" type="text/css" href="topnav.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <div class="topnav" id="myTopnav">
+                <a href="#home" class="active">
+                    <picture>
+                      <img src="../img/logo-text.png" class="logo-text">
+                    </picture>
+                </a>
+                <a href="nav/actualites">Actualités</a>
+                <a href="nav/pedagogiques">Pédagogiques</a>
+                <a href="nav/performances">Performances</a>
+                <a href="nav/activites">Activités</a>
+                <a href="nav/galerie">Galerie</a>
+                <a href="nav/informations">Informations</a>
+                <a href="nav/contact">Contact</a>
+                <a href="nav/inscription">Inscription</a>
+                <span class="login1">
+                    <button onclick="document.location='login/login.html' " class="login">S'Identifier</button>
+                </span>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <script>
+                function myFunction() {
+                  var x = document.getElementById("myTopnav");
+                  if (x.className === "topnav") {
+                    x.className += " responsive";
+                  } else {
+                    x.className = "topnav";
+                  }
+                }
+            </script>
+        </div>
+    </body>
+</html>
