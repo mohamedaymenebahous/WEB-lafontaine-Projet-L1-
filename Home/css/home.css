@@ -47,12 +47,12 @@ body {
 }
 
 #login {
-    background-color: #00acca;
+    background-color: #ff2a2a;
     color: #ffffff;
 }
 
 #login:hover {
-    background-color: #ff2a2a;
+    background-color: #00acca;
 }
 
 .illustration {
