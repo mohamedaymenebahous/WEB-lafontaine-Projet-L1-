@@ -46,8 +46,9 @@ p {
 }
 
 input {
-    background-color: #eeeeee;
+    background-color: #ffffff;
     border: 0;
+    border-bottom: solid #eeeeee 3px;
     height: 3em;
 }
 
@@ -57,6 +58,10 @@ input, .button {
     font-size: 1rem;
     outline: none;
     margin: 1em;
+}
+
+input:focus {
+    border-bottom: solid 3px #ff0000;
 }
 
 .button {
@@ -103,6 +108,10 @@ a:active {
     input {
         width: 60% !important;
     }
+
+    #passwordcode {
+        white-space: pre;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -146,7 +155,7 @@ a:active {
 
     input {
         width: calc(100% - 1em) !important;
-        margin: .5em 0;
+        margin: 1em 0;
     }
 
     .button {
