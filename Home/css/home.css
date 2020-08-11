@@ -20,13 +20,20 @@ body {
     margin-left: -5px;
 }
 
-.topnav a:not(:first-child) {display: none;}
+.topnav a:not(:first-child) {
+    display: none;
+}
+
 .topnav a.icon {
     float: right;
     display: block;
+    color: #ff2a2a;
 }
 
-.topnav.responsive {position: relative;}
+.topnav .responsive {
+    position: relative;
+}
+
 .topnav.responsive .icon {
     position: absolute;
     right: 0;
@@ -39,22 +46,13 @@ body {
     text-align: left;
 }
 
-.login {
-    background: #ff2a2a;
-    border: none;
+#login {
+    background-color: #00acca;
     color: #ffffff;
-    padding: 10px 10px;
-    margin-top: 5px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-    font-family: "Montserrat";
-    font-size: 16px;
 }
 
-.login:hover {
-    background: #00acca;
-    color: #ffffff;
+#login:hover {
+    background-color: #ff2a2a;
 }
 
 .illustration {
@@ -199,8 +197,8 @@ span {
 
     .login1 {
         display: block;
-        position: relative;
-        right: -4em;
+        position: absolute;
+        right: 10px;
     }
 
     .login {
@@ -219,6 +217,10 @@ span {
     .login:hover {
         background: #00acca;
         color: #ffffff;
+    }
+
+    #login {
+        display: none;
     }
 
     p {
