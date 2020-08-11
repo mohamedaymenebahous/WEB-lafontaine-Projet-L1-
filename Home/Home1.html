@@ -1,0 +1,117 @@
+<!DOCTYPE html5>
+<html dir="ltr" lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="School Project">
+        <meta name="keywords" content="School Project school schoolwebsite.com website for school">
+        <meta name="author" content="Mohamed Aymene Bahous">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Etablissement LA FONTAINE</title>
+        <link rel="icon" href="img/logo.png">
+        <link rel="stylesheet" type="text/css" href="css/home1.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <div class="topnav" id="myTopnav">
+                <a href="#home" class="active">
+                    <picture>
+                      <img src="img/logo-text.png" class="logo-text">
+                    </picture>
+                </a>
+                <a href="login/login.html" id="login">S'Identifier</a>
+                <a href="nav/actualites">Actualités</a>
+                <a id="pedag" href="nav/pedagogiques">Pédagogiques</a>
+                <ul>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Pédagogiques</a>
+                        <div class="dropdown-content">
+                            <a href="#">La Maternelle</a>
+                            <a href="#">Le Primaire</a>
+                            <a href="#">Le Collège</a>
+                            <a href="#">Le lycée</a>
+                        </div>
+                    </li>
+                </ul>
+                <a href="nav/performances">Performances</a>
+                <a href="nav/activites">Activités</a>
+                <a href="nav/galerie">Galerie</a>
+                <a href="nav/informations">Informations</a>
+                <a href="nav/contact">Contact</a>
+                <a href="nav/inscription">Inscription</a>
+                <span class="login1">
+                    <button onclick="document.location='login/login.html' " class="login">S'Identifier</button>
+                </span>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <!--
+                <ul>
+                    <li><a href="#home" class="active">
+                        <picture>
+                            <img src="img/logo-text.png" class="logo-text">
+                        </picture></a>
+                    </li>
+                    <li><a href="login/login.html" id="login">S'Identifier</a></li>
+                    <li><a href="nav/actualites">Actualités</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Pédagogiques</a>
+                        <div class="dropdown-content">
+                            <a href="#">La Maternelle</a>
+                            <a href="#">Le Primaire</a>
+                            <a href="#">Le Collège</a>
+                            <a href="#">Le lycée</a>
+                        </div>
+                    </li>
+                    <li><a href="nav/performances">Performances</a></li>
+                    <li><a href="nav/activites">Activités</a></li>
+                    <li><a href="nav/galerie">Galerie</a></li>
+                    <li><a href="nav/informations">Informations</a></li>
+                    <li><a href="nav/contact">Contact</a></li>
+                    <li><a href="nav/inscription">Inscription</a></li>
+                    <li style="float:right"><span class="login1">
+                        <button onclick="document.location='login/login.html' " class="login">S'Identifier</button>
+                    </span></li>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </ul>
+                -->
+            </div>
+            <script>
+                function myFunction() {
+                  var x = document.getElementById("myTopnav");
+                  if (x.className === "topnav") {
+                    x.className += " responsive";
+                  } else {
+                    x.className = "topnav";
+                  }
+                }
+            </script>
+
+            <div class="inner">
+    
+                <div class="left">
+                    <div class="content">
+                        <h1>Assurer<span>l'avenir de vos enfants !</span></h1>
+                        <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</p>
+                        <div class="nav2">
+                            <button onclick="document.location='nav/pedagogiques'" class="button">Découvrir</button>
+                            <button onclick="document.location='nav/pedagogiques'" class="button">Inscription</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="right">
+                    <div class="illustration">
+                        <img src="img/8 SCENE.svg" alt="Illustration" class="illustsvg">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
