@@ -24,7 +24,18 @@
                 </a>
                 <a href="login/login.html" id="login">S'Identifier</a>
                 <a href="nav/actualites">Actualités</a>
-                <a href="nav/pedagogiques">Pédagogiques</a>
+                <a id="pedag" href="nav/pedagogiques">Pédagogiques</a>
+                <ul>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Pédagogiques</a>
+                        <div class="dropdown-content">
+                            <a href="#">La Maternelle</a>
+                            <a href="#">Le Primaire</a>
+                            <a href="#">Le Collège</a>
+                            <a href="#">Le lycée</a>
+                        </div>
+                    </li>
+                </ul>
                 <a href="nav/performances">Performances</a>
                 <a href="nav/activites">Activités</a>
                 <a href="nav/galerie">Galerie</a>
@@ -37,6 +48,38 @@
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <i class="fa fa-bars"></i>
                 </a>
+                <!--
+                <ul>
+                    <li><a href="#home" class="active">
+                        <picture>
+                            <img src="img/logo-text.png" class="logo-text">
+                        </picture></a>
+                    </li>
+                    <li><a href="login/login.html" id="login">S'Identifier</a></li>
+                    <li><a href="nav/actualites">Actualités</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Pédagogiques</a>
+                        <div class="dropdown-content">
+                            <a href="#">La Maternelle</a>
+                            <a href="#">Le Primaire</a>
+                            <a href="#">Le Collège</a>
+                            <a href="#">Le lycée</a>
+                        </div>
+                    </li>
+                    <li><a href="nav/performances">Performances</a></li>
+                    <li><a href="nav/activites">Activités</a></li>
+                    <li><a href="nav/galerie">Galerie</a></li>
+                    <li><a href="nav/informations">Informations</a></li>
+                    <li><a href="nav/contact">Contact</a></li>
+                    <li><a href="nav/inscription">Inscription</a></li>
+                    <li style="float:right"><span class="login1">
+                        <button onclick="document.location='login/login.html' " class="login">S'Identifier</button>
+                    </span></li>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </ul>
+                -->
             </div>
             <script>
                 function myFunction() {
@@ -69,6 +112,5 @@
                 </div>
             </div>
         </div>
-
     </body>
 </html>
