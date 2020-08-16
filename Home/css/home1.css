@@ -177,6 +177,57 @@ span {
     color: #ffffff;
 }
 
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.presentation {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    font-size: 16px;
+}
+
+.title {
+    white-space: normal;
+}
+
+.lafontaine {
+    color: #ff2a2a;
+}
+
+.cards {
+    margin: auto;
+    width: 90%;
+    margin-top: 50px;
+}
+
+.card1, .card2, .card3 {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    border: solid 2px #eeeeee;
+    border-radius: 15px;
+    padding: 15px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.pcard {
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    color: #ff2a2a;
+    white-space: nowrap;
+}
+
 footer {
     background-color: #ff2a2a;
 }
@@ -687,4 +738,31 @@ footer {
         margin-left: 5px;
     }
     
+}
+
+@media screen and (min-width: 1024px) {
+    .presentation {
+        width: 60%;
+    }
+
+    .title {
+        white-space: nowrap;
+    }
+
+    .presentationprg {
+        text-align: center;
+
+    }
+
+    .cards {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .card1, .card2, .card3 {
+        display: inline-block;
+        margin: auto;
+        width: 25%;
+        margin-left: 50px;
+    }
 }
