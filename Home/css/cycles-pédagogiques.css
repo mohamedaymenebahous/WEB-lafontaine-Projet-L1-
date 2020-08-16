@@ -1,11 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&diplay=swap");
 
 body {
+    background-color: #ffffff;
     margin: 0;
-    font-family: "Montserrat";
-    background: #ffffff;
-    font-size: 16px;
-    height: 100vh;
+    font-family: Montserrat;
+    font-size: 1em;
 }
 
 .container {
@@ -112,88 +111,15 @@ li.dropdown {
     background-color: #00acca;
 }
 
-.illustration {
-    margin-top: 2em;
-}
-
-.button:hover {
-    background: #00acca;
-    color: #ffffff;
-}
-
-.nav2 {
-    margin-top: 3em;
-}
-
-.illustsvg {
-    width: 100%;
-}
-
-h1 {
-    margin: 1em 0;
-}
-
-p {
-    line-height: 1.7em !important;
-    font-size: 18px;
-    text-align: center;
-}
-
-span {
-    color: #ff2a2a;
-    display: block;
-}
-
-.left {
-    background: #ffffff;
-    padding: 1em;
-}
-
-.left h1, p {
-    color: #000000;
-}
-
 .login1 {
     display: none;
-}
-
-.button {
-    background: #ff2a2a;
-    border: none;
-    color: #ffffff;
-    padding: 10px 10px;
-    margin-right: 10px;
-    margin-bottom: 5px;
-    margin-top: -8px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 5px;
-}
-
-.button:hover {
-    background: #00acca;
-    color: #ffffff;
-}
-
-hr {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
 
 .presentation {
     text-align: center;
     margin: auto;
     width: 80%;
-    font-size: 16px;
-}
-
-.title {
-    white-space: normal;
+    margin-top: 40px;
 }
 
 .lafontaine {
@@ -206,26 +132,45 @@ hr {
     margin-top: 50px;
 }
 
-.card1, .card2, .card3 {
+.card1, .card2, .card3, .card4 {
     background-color: #ffffff;
     margin-bottom: 20px;
-    border: solid 1px #eeeeee;
+    border: solid 2px #eeeeee;
     border-radius: 15px;
     padding: 15px;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
-    text-align: left;
 }
 
-.pcard {
-    text-align: left;
+.button {
+    background: #ff2a2a;
+    border: none;
+    color: #ffffff;
+    padding: 10px 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
     font-size: 16px;
-    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background: #00acca;
+    color: #ffffff;
 }
 
 h3 {
     color: #ff2a2a;
     white-space: nowrap;
+}
+
+.img {
+    border-radius: 15px;
+    margin: auto;
+    width: 100%;
 }
 
 footer {
@@ -383,7 +328,6 @@ footer {
 #adress {
     color: #ffffff;
 }
-
 
 @media only screen and (min-width: 768px) {
 
@@ -548,48 +492,6 @@ footer {
         display: none;
     }
 
-    p {
-        line-height: 1.7em !important;
-        text-align: left;
-    }
-
-    .inner {
-        margin-top: 3em;
-        display: grid;
-        grid-template-columns: 60% auto;
-    }
-
-    .left {
-        text-align: left;
-        padding: 3em 2em;
-        display: grid;
-        
-        line-height: 1.7em !important;
-    }
-
-    .illustration {
-        margin-top: -10px;
-        margin-left: -8em;
-    }
-
-    .illustsvg {
-        width: 700px;
-    }
-
-    .content {
-        padding: 0 2.5em;
-    }
-
-    h1 {
-        font-size: 2em;
-        white-space: nowrap;
-        line-height: 1.2em;
-    }
-
-    .nav2 {
-        margin-top: 2em;
-    }
-
     footer {
         background-color: #ff2a2a;
         color: #ffffff;
@@ -626,6 +528,7 @@ footer {
         margin: 20px 0 12px;
         padding: 0;
         margin-top: 50px;
+        text-align: left;
     }
     .footer-distributed .footer-links a{
         display:inline-block;
@@ -638,6 +541,7 @@ footer {
         font-size: 14px;
         font-weight: normal;
         margin: 0;
+        text-align: left;
     }
     /* Footer Center */
     .footer-distributed .footer-center{
@@ -696,6 +600,7 @@ footer {
     }
     .footer-distributed .footer-icons{
         margin-top: 25px;
+        text-align: center;
     }
     .footer-distributed .footer-icons a{
         display: inline-block;
@@ -726,6 +631,7 @@ footer {
 
     #adress {
         color: #ffffff;
+        text-align: left;
     }
 
     #about {
@@ -737,7 +643,6 @@ footer {
         opacity: 100%;
         margin-left: 5px;
     }
-    
 }
 
 @media screen and (min-width: 1024px) {
@@ -745,24 +650,21 @@ footer {
         width: 60%;
     }
 
-    .title {
-        white-space: nowrap;
-    }
-
-    .presentationprg {
-        text-align: center;
-
-    }
-
     .cards {
         margin-top: 50px;
         text-align: center;
     }
 
-    .card1, .card2, .card3 {
+    .card1, .card2, .card3, .card4 {
+        font-size: 16px;
+        text-align: left;
         display: inline-block;
         margin: auto;
         width: 25%;
         margin-left: 50px;
+    }
+
+    .card4 {
+        margin-top: 20px;
     }
 }
