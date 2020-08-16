@@ -766,3 +766,38 @@ footer {
         margin-left: 50px;
     }
 }
+
+@media screen and (min-width: 768px) {
+    .presentation {
+        width: 60%;
+    }
+
+    .title {
+        white-space: nowrap;
+    }
+
+    .presentationprg {
+        text-align: center;
+
+    }
+
+    .cards {
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    .card1, .card2, .card3 {
+        display: inline-block;
+        margin: auto;
+        width: 40%;
+        margin-left: 50px;
+        margin-top: 25px;
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .footer-distributed .footer-center {
+        text-align: center;
+    }
+}
