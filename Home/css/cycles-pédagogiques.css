@@ -130,6 +130,7 @@ li.dropdown {
     margin: auto;
     width: 90%;
     margin-top: 50px;
+    text-align: left;
 }
 
 .card1, .card2, .card3, .card4 {
@@ -333,10 +334,6 @@ footer {
 
     body {
         font-size: 20px;
-    }
-
-    p {
-        text-align: center;
     }
 }
 
